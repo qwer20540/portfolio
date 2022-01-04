@@ -1,0 +1,31 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600&family=Jua&display=swap');
+
+body {background-color:#333;}
+
+.ft_jua {font-family:'Jua', sans-serif;}
+.f_hover:hover {filter: brightness(70%); transition:all 0.2s;}
+.line1 {stroke:#aaa; stroke-width:5px; fill:transparent;}
+@keyframes right {
+    from {transform:translateX(-100%);}
+}
+.svg {width:600px; height:400px; margin:0 auto;}
+@media (max-width:768px){
+    .svg {width:100%;}
+}
+
+#f-navbar a {margin:0 auto; font-family:'Jua', sans-serif;}
+#f-jumbotron {font-family:'IBM Plex Sans KR', sans-serif; font-weight:400;}
+#f-jumbotron p a {color:#000;}
+#f-jumbotron a {font-family:'Jua', sans-serif;}
+
+/* footer */
+footer {margin:0 auto; text-align:center; position:relative;}
+.footerInner {width:100%; margin-top:118px;}
+.footerInner h1 {font-size:20px; font-weight:600; letter-spacing:10px; margin-bottom:20px;}
+.footerInner svg {width:100%; height:400px;}
+.footerInner h2 {font-size:60px; font-weight:700; margin-bottom:20px; text-align:center;}
+.footerInner span {font-size:13px; color:#777; line-height:2.3;}
+.footerInner span address {display:inline-block;}
+.footerInner span address a {color:#47cace; font-style: normal;}
